@@ -14,11 +14,11 @@ const plugins = [
     ["@babel/plugin-proposal-class-properties", { "loose": true }],
     ["@babel/plugin-proposal-function-bind"],
     ["@babel/plugin-proposal-object-rest-spread", { useBuiltIns: true }],
-    // Should add : babel-plugin-proposal-optional-chaining
-    // Should add : babel-plugin-proposal-nullish-coalescing-operator
+    ["@babel/plugin-proposal-optional-chaining"],
+    ["@babel/plugin-proposal-nullish-coalescing-operator"],
     ['@babel/plugin-transform-runtime', { helpers: true, polyfill: false, regenerator: false, useBuiltIns: true, useESModules: true }], //https://babeljs.io/docs/en/next/babel-plugin-transform-runtime
-    "@babel/plugin-syntax-dynamic-import",
-    "babel-plugin-lodash"
+    ['@babel/plugin-syntax-dynamic-import'],
+    ["babel-plugin-lodash"]
 ];
 
 //https://babeljs.io/docs/en/next/babel-plugin-transform-runtime
