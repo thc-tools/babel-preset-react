@@ -1,6 +1,6 @@
 {
     "name": "@thc/babel-preset-react",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Babel preset, for React project",
     "main": "index.js",
     "scripts": {
@@ -13,7 +13,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "type": "git",
+        "type   ": "git",
         "url": "git+https://github.com/thc-tools/babel-preset-react.git"
     },
     "keywords": [

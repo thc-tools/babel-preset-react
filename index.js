@@ -1,8 +1,8 @@
-let env = process.env.BABEL_ENV || process.env.NODE_ENV;
+let env = process.env.NODE_ENV;
 if (env !== 'development' && env !== 'test' && env !== 'production') {
     throw new Error(
-        'Using `@thc/babel-preset-react` requires that you specify `NODE_ENV` or ' +
-        '`BABEL_ENV` environment variables. Valid values are "development" ' +
+        'Using `@thc/babel-preset-react` requires that you specify `NODE_ENV` ' +
+        'environment variables. Valid values are "development" ' +
         '"test", and "production". Instead, received: ' +
         JSON.stringify(env) +
         '.'
