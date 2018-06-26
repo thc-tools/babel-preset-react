@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0-alpha.1"></a>
+# [0.1.0-alpha.1](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.0...v0.1.0-alpha.1) (2018-06-26)
+
+
+### Bug Fixes
+
+* Fixing preset (must be function, use array for plugin and preset) ([341df0b](https://github.com/thc-tools/babel-preset-react/commit/341df0b))
+
+
+
 <a name="0.1.0-alpha.0"></a>
 # 0.1.0-alpha.0 (2018-06-25)
 
