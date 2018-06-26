@@ -7,6 +7,8 @@
 //  ['babel-plugin-transform-runtime', { helpers: false, polyfill: false, regenerator: true }],
 //  ['babel-plugin-transform-regenerator', { async: false }],
 module.exports = (api, options, dirname) => {
+    const development = !!options.development;
+    const hot = !!options.hot;
     return {
         presets: [
             ["@babel/preset-env", {
