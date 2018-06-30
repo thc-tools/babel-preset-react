@@ -18,11 +18,11 @@ module.exports = (api, options, dirname) => {
             ["@babel/preset-react", {
                 useBuiltIns: true,
                 development
-            }],
+            }]/*,
             !development && ["babel-preset-minify", {
                 removeConsole: true,
                 removeDebugger: true
-            }]
+            }]*/
         ].filter(Boolean),
         plugins: [
             ["@babel/plugin-proposal-decorators", { "legacy": true }], //https://babeljs.io/docs/en/next/babel-plugin-proposal-decorators
@@ -41,6 +41,6 @@ module.exports = (api, options, dirname) => {
                 "mode": "remove",
                 // Safe ?"ignoreFilenames": ["node_modules"] //https://github.com/oliviertassinari/babel-plugin-transform-react-remove-prop-types#ignorefilenames
             }]
-        ]
+        ].filter(Boolean)
     }
 };
