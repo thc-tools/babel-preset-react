@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0-alpha.3"></a>
+# [0.1.0-alpha.3](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.2...v0.1.0-alpha.3) (2018-06-30)
+
+
+### Bug Fixes
+
+* Wrong test ([b6d5be1](https://github.com/thc-tools/babel-preset-react/commit/b6d5be1))
+
+
+
 <a name="0.1.0-alpha.2"></a>
 # [0.1.0-alpha.2](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.1...v0.1.0-alpha.2) (2018-06-26)
 
