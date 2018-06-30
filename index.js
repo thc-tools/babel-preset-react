@@ -16,7 +16,8 @@ module.exports = (api, options, dirname) => {
                 modules: false
             }],
             ["@babel/preset-react", {
-                useBuiltIns: true, development: env === 'development'
+                useBuiltIns: true,
+                development
             }],
             !development && ["babel-preset-minify", {
                 removeConsole: true,
