@@ -1,6 +1,6 @@
 {
   "name": "@thc/babel-preset-react",
-  "version": "0.1.0-alpha.4",
+  "version": "0.1.0-alpha.5",
   "description": "Babel preset, for React project",
   "main": "index.js",
   "scripts": {
