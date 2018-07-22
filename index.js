@@ -10,7 +10,7 @@ module.exports = (api, options, dirname) => {
     api.assertVersion(7);
 
     const mode = options.mode;
-    if (["development", "production", "test"].includes(mode)) {
+    if (!["development", "production", "test"].includes(mode)) {
         throw new Error("@thc/preset-react 'mode' option must be either 'development', 'production' or 'test'.");
     }
     const development = mode === "development";
