@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0-alpha.7"></a>
+# [0.1.0-alpha.7](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.6...v0.1.0-alpha.7) (2018-12-16)
+
+
+### Bug Fixes
+
+* [@babel](https://github.com/babel)/plugin-transform-runtime options changed + updating versions ([65a249e](https://github.com/thc-tools/babel-preset-react/commit/65a249e))
+
+
+
 <a name="0.1.0-alpha.6"></a>
 # [0.1.0-alpha.6](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.5...v0.1.0-alpha.6) (2018-07-22)
 
