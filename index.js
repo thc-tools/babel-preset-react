@@ -50,10 +50,9 @@ module.exports = (api, options, dirname) => {
                 "@babel/plugin-transform-runtime",
                 //https://babeljs.io/docs/en/next/babel-plugin-transform-runtime
                 {
+                    corejs: false,
                     helpers: true,
-                    polyfill: false,
                     regenerator: false,
-                    useBuiltIns: true,
                     useESModules: true
                 }
             ],
