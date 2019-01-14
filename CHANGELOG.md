@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.7...v1.0.0) (2019-01-14)
+
+
+### Bug Fixes
+
+* [@babel](https://github.com/babel)/plugin-transform-runtime options changed + updating versions ([65a249e](https://github.com/thc-tools/babel-preset-react/commit/65a249e))
+* **deps:** update dependency [@babel](https://github.com/babel)/polyfill to v7.2.5 ([3b7b491](https://github.com/thc-tools/babel-preset-react/commit/3b7b491))
+
+
+
 <a name="0.1.0-alpha.7"></a>
 # [0.1.0-alpha.7](https://github.com/thc-tools/babel-preset-react/compare/v0.1.0-alpha.6...v0.1.0-alpha.7) (2018-12-16)
 
