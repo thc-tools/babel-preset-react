@@ -10,7 +10,9 @@
     "release": "npm publish --access public && conventional-github-releaser -p angular && git push --follow-tags origin master",
     "release-alpha": "npm publish --tag alpha --access public && conventional-github-releaser -p angular && git push --follow-tags origin master",
     "release-beta": "npm publish --tag beta --access public && conventional-github-releaser -p angular && git push --follow-tags origin master",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type   ": "git",
@@ -49,6 +51,8 @@
     "@babel/runtime": "7.5.5",
     "babel-plugin-lodash": "3.3.4",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
-    "react-hot-loader": "4.12.11"
-  }
+    "react-hot-loader": "4.12.11",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
