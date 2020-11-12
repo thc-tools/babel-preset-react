@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.1](https://github.com/thc-tools/babel-preset-react/compare/v1.0.0...v1.1.0-alpha.1) (2020-11-12)
+
+
+### Features
+
+* **deps:** update dependency standard-version to v5 ([8beba1d](https://github.com/thc-tools/babel-preset-react/commit/8beba1d3474b27f8715efc8381438235d4ff17bc))
+* **deps:** update dependency standard-version to v6 ([#21](https://github.com/thc-tools/babel-preset-react/issues/21)) ([f2f9d89](https://github.com/thc-tools/babel-preset-react/commit/f2f9d896afba9ed4b2cc7fe6d788b45525805fee))
+* **deps:** update dependency standard-version to v7 ([506deba](https://github.com/thc-tools/babel-preset-react/commit/506deba4bd72e4460000f84634d42aa6b25b214a))
+* **deps:** update dependency standard-version to v8 ([7e19187](https://github.com/thc-tools/babel-preset-react/commit/7e19187ece4d905e8839a381e0f329692d8f9787))
+* **deps:** update dependency standard-version to v9 ([70bccae](https://github.com/thc-tools/babel-preset-react/commit/70bccaee6ec5798f3425edc270ce6613958f9b0a))
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([963bdb4](https://github.com/thc-tools/babel-preset-react/commit/963bdb4e7c6ccf5ed4dfcf656556dbb32184f57b))
+* **deps:** update babel monorepo ([e61e9d2](https://github.com/thc-tools/babel-preset-react/commit/e61e9d2914c9b0ad3ea39b2be272bca3453fc6d5))
+* **deps:** update babel monorepo ([6215d11](https://github.com/thc-tools/babel-preset-react/commit/6215d11b25a64655660666a03f14ecb9eaf09000))
+* **deps:** update babel monorepo ([ef5731b](https://github.com/thc-tools/babel-preset-react/commit/ef5731bdeb29894a855cf09ca7d23e250a9c6035))
+* **deps:** update babel monorepo ([d7ab296](https://github.com/thc-tools/babel-preset-react/commit/d7ab296c17ba7b753525758c899e09356d4f1c8a))
+* **deps:** update babel monorepo to v7.4.4 ([c7acef8](https://github.com/thc-tools/babel-preset-react/commit/c7acef8931fe92b6f77e34cb181f6f947d3fd28b))
+* **deps:** update dependency @babel/plugin-transform-runtime to v7.3.4 ([1a523ca](https://github.com/thc-tools/babel-preset-react/commit/1a523cadb8ad11ff68beaf4ef8d245094ba6ea26))
+* **deps:** update dependency react-hot-loader to v4.11.0 ([#27](https://github.com/thc-tools/babel-preset-react/issues/27)) ([4a72821](https://github.com/thc-tools/babel-preset-react/commit/4a7282161ed55a155b894180dc7e8955a2cd17f2))
+* **deps:** update dependency react-hot-loader to v4.12.5 ([af309a4](https://github.com/thc-tools/babel-preset-react/commit/af309a4595d3287930877dc8bf6f7fe6d6651e0c))
+* **deps:** update dependency react-hot-loader to v4.13.0 ([ce695df](https://github.com/thc-tools/babel-preset-react/commit/ce695df294b5395785a583542548b3aeef86eaf9))
+* **deps:** update dependency react-hot-loader to v4.7.0 ([014a27b](https://github.com/thc-tools/babel-preset-react/commit/014a27b90643ac5469d7f277de44156b1b3af9b9))
+* **deps:** update dependency react-hot-loader to v4.8.0 ([ca2f224](https://github.com/thc-tools/babel-preset-react/commit/ca2f224c13888ed1ac7ed41a3f73bc1e749c769e))
+
 ## [1.1.0-alpha.0](https://github.com/thc-tools/babel-preset-react/compare/v1.0.0...v1.1.0-alpha.0) (2020-11-12)
 
 
