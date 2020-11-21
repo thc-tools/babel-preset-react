@@ -61,7 +61,7 @@ module.exports = (api, options, dirname) => {
             ],
             ["@babel/plugin-syntax-dynamic-import"],
             ["babel-plugin-lodash"],
-            development && hot && ["react-hot-loader/babel"],
+            development && hot && ["react-refresh/babel"],
             production && ["@babel/plugin-transform-react-inline-elements"],
             production && ["@babel/plugin-transform-react-constant-elements"],
             production && [
