@@ -24,6 +24,8 @@ module.exports = (api, options, dirname) => {
                 "@babel/preset-env",
                 {
                     useBuiltIns: "entry",
+                    version: 3,
+                    bugfixes: true,
                     modules: test ? "commonjs" : false
                 }
             ],
@@ -50,7 +52,7 @@ module.exports = (api, options, dirname) => {
                 "@babel/plugin-transform-runtime",
                 //https://babeljs.io/docs/en/next/babel-plugin-transform-runtime
                 {
-                    corejs: false,
+                    corejs: 3,
                     helpers: true,
                     regenerator: false,
                     useESModules: true
