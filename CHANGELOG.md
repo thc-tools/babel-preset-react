@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.4](https://github.com/thc-tools/babel-preset-react/compare/v1.1.0-alpha.3...v1.1.0-alpha.4) (2020-11-21)
+
+
+### Features
+
+* improvement of polyfill ([640ee71](https://github.com/thc-tools/babel-preset-react/commit/640ee71a95c7211c7f9371d70d3d2f6bb013e8f0))
+
 ## [1.1.0-alpha.3](https://github.com/thc-tools/babel-preset-react/compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2020-11-21)
 
 
