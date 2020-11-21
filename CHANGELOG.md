@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.3](https://github.com/thc-tools/babel-preset-react/compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2020-11-21)
+
+
+### Bug Fixes
+
+* correct key is corejs ([bec0e42](https://github.com/thc-tools/babel-preset-react/commit/bec0e4292688b3d76195119d8b31d118b311eedf))
+
 ## [1.1.0-alpha.2](https://github.com/thc-tools/babel-preset-react/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2020-11-21)
 
 
