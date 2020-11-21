@@ -55,7 +55,8 @@ module.exports = (api, options, dirname) => {
                     corejs: 3,
                     helpers: true,
                     regenerator: false,
-                    useESModules: true
+                    useESModules: true,
+                    version: "7.12.5"
                 }
             ],
             ["@babel/plugin-syntax-dynamic-import"],
