@@ -24,7 +24,7 @@ module.exports = (api, options, dirname) => {
                 "@babel/preset-env",
                 {
                     useBuiltIns: "entry",
-                    version: 3,
+                    corejs: 3,
                     bugfixes: true,
                     modules: test ? "commonjs" : false
                 }
