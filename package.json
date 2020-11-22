@@ -27,10 +27,6 @@
     "url": "https://github.com/thc-tools/babel-preset-react/issues"
   },
   "homepage": "https://github.com/thc-tools/babel-preset-react#readme",
-  "peerDependencies": {
-    "core-js": "^3.7.0",
-    "regenerator-runtime": "^0.13.7"
-  },
   "devDependencies": {
     "conventional-github-releaser": "3.1.5",
     "standard-version": "9.0.0"
@@ -52,6 +48,8 @@
     "@babel/runtime-corejs3": "7.12.5",
     "babel-plugin-lodash": "3.3.4",
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
-    "react-refresh": "0.9.0"
+    "core-js": "3.7.0",
+    "react-refresh": "0.9.0",
+    "regenerator-runtime": "0.13.7"
   }
 }
