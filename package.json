@@ -29,7 +29,7 @@
   "homepage": "https://github.com/thc-tools/babel-preset-react#readme",
   "devDependencies": {
     "conventional-github-releaser": "3.1.5",
-    "standard-version": "9.0.0"
+    "standard-version": "9.5.0"
   },
   "dependencies": {
     "@babel/core": "7.12.7",
